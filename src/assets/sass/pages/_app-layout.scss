@@ -1,0 +1,53 @@
+.app-layout {
+  &--logo {
+    & img {
+      height: 36px;
+      object-fit: contain;
+    }
+  }
+}
+
+.d-table {
+  width: 100%;
+  box-shadow: none !important;
+  border-radius: 4px;
+  border: 1px solid var(--v-gray-lighten2);
+
+  & .v-data-table-header,
+  & .v-data-table--fixed-header {
+    background: var(--v-gray-lighten5);
+  }
+
+  &.v-data-table--fixed-header thead th {
+    background: var(--v-gray-lighten5) !important;
+  }
+}
+
+.d-modal {
+  background: #fff;
+
+  &__header {
+    padding: 12px 16px;
+  }
+  &__body {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--v-gray-lighten2);
+    border-top: 1px solid var(--v-gray-lighten2);
+    max-height: calc(90vh - 120px);
+    overflow: auto;
+  }
+  &__footer {
+    padding: 12px 16px;
+  }
+}
+
+.d-details {
+  &--header {
+    height: 53px;
+  }
+
+  &--body {
+    height: calc(100% - 106px);
+    overflow: auto;
+  }
+}

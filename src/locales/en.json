@@ -1,0 +1,82 @@
+{
+  "defaults": {
+    "modal-remove": "Remove",
+    "modal-cancel": "Cancel",
+    "modal-save": "Save",
+    "search-no-result": "Your search returned no results. Make sure you search properly",
+    "search-clear-button": "Clear",
+    "search-submit-button": "Search",
+    "others": "others",
+    "rule": {
+      "required": "This field is required"
+    },
+    "alert": {
+      "could-not-fetch": "An error occurred. Couldn't fetch data"
+    },
+    "details-heading": "Details",
+    "remote-dropdown-placeholder": "Please enter 3 or more characters"
+  },
+  "menu": {
+    "tasks": "Tasks"
+  },
+  "tasks": {
+    "page-heading": "Tasks",
+    "status": {
+      "completed": "Tamamlanmış",
+      "incompleted": "Tamamlanmamış"
+    },
+    "button": {
+      "search-toggle": "Search",
+      "create-item": "Create new task"
+    },
+    "search": {
+      "form": {
+        "name": "Task name",
+        "tags": "Task tags"
+      }
+    },
+    "list": {
+      "table": {
+        "headers": {
+          "name": "Task name",
+          "tags": "Task tags"
+        },
+        "actions": {
+          "edit": "Edit task",
+          "delete": "Delete task"
+        }
+      },
+      "empty-page": "There are no items to display. Click on the button to create new task"
+    },
+    "delete": {
+      "title": "Remove task",
+      "text": "Are you sure you want to remove {name}?",
+      "alert": {
+        "could-not-delete": "An error occurred. Task could not be removed",
+        "deleted": "{name} has been removed successfully"
+      }
+    },
+    "create": {
+      "title": "Create new task",
+      "form": {
+        "name": "Task name",
+        "tags": "Task tags",
+        "status": "Is task completed?"
+      },
+      "rule": {
+        "tags": "You must enter/select at least one tag"
+      },
+      "alert": {
+        "could-not-create": "An error occurred. Task could not be created",
+        "created": "{name} has been created successfully"
+      }
+    },
+    "edit": {
+      "title": "Edit task",
+      "alert": {
+        "could-not-update": "An error occurred. Task could not be updated",
+        "updated": "{name} has been updated successfully"
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.container {
+  padding: 0 8px !important;
+}
+
+.col,
+[class*="col-"] {
+  padding: 0 8px !important;
+}
+.row {
+  margin: 0 -8px;
+}
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding: 0 !important;
+}
+
+.row.no-gutters {
+  margin: 0 !important;
+}
+
+.row + .row {
+  margin: 0 !important;
+}
+
+.theme--light.v-text-field--filled .v-input__control {
+  background-color: #fff !important;
+}
+
+.theme--light.v-text-field--filled > .v-input__control > .v-input__slot {
+  background: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+
+.theme--light.v-text-field--filled > .v-input__control > .v-input__slot {
+  background: none !important;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+
+.theme--light.v-text-field--filled.v-input--is-disabled
+  > .v-input__control
+  > .v-input__slot {
+  border-style: dashed !important;
+}
+
+.v-text-field > .v-input__control > .v-input__slot::before,
+.v-text-field > .v-input__control > .v-input__slot::after {
+  content: none !important;
+}
+
+.theme--light.v-text-field--filled.error--text .v-input__slot {
+  border-color: var(--v-error-base) !important;
+  background: rgba(255, 82, 82, 0.12) !important;
+}
+
+.v-text-field--filled.primary--text .v-label {
+  color: $input-color !important;
+}
+
+.v-text-field--filled .v-label--active,
+.v-text-field--full-width .v-label--active {
+  transform: translateY(-10px) scale(0.75) !important;
+}
+
+.v-application {
+  & .body-1,
+  & .body-2,
+  & .subtitle-1,
+  & .subtitle-2,
+  & .text-h1,
+  & .text-h2,
+  & .text-h3,
+  & .text-h4,
+  & .text-h5,
+  & .text-h6,
+  & .caption,
+  & .v-tab,
+  & .text {
+    letter-spacing: 0 !important;
+  }
+}
+
+.v-autocomplete.v-text-field--enclosed:not(.v-text-field--solo):not(.v-text-field--single-line):not(.v-text-field--outlined)
+  .v-select__slot
+  > input {
+  margin-top: 22px;
+}
